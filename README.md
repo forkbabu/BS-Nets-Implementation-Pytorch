@@ -1,7 +1,26 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3189fb794a294eaa9fdd620072808af1)](https://app.codacy.com/manual/ucalyptus/BS-Nets-Implementation-Pytorch?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/BS-Nets-Implementation-Pytorch&utm_campaign=Badge_Grade_Dashboard)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ucalyptus/BS-Nets-Implementation-Pytorch) 
+
 # BS-Nets-Implementation-Pytorch [![HitCount](http://hits.dwyl.io/ucalyptus/BS-Nets-Implementation-Pytorch.svg)](http://hits.dwyl.io/ucalyptus/BS-Nets-Implementation-Pytorch)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bs-nets-an-end-to-end-framework-for-band/hyperspectral-image-classification-on-indian)](https://paperswithcode.com/sota/hyperspectral-image-classification-on-indian?p=bs-nets-an-end-to-end-framework-for-band)
 
 
-BS-Nets: An End-to-End Framework For Band Selection of Hyperspectral Image
-* [Read the paper here](https://arxiv.org/pdf/1904.08269v1.pdf)
+# Setup
+- `conda activate bsnets`
+- `pip install -r requirements.txt`
+
+# SSRN Classification
+`cd SSRN/`
+`python indian.py`
+
+
+# Plots
+![](assets/CNN-page-001.png)
+![](assets/architecture-Conv-page-001.jpg)
+![](https://github.com/ucalyptus/BS-Nets-Implementation-Pytorch/blob/e50a34df2cc45d08979383a29d6c41535a965453/assets/top15bands-entropy-all-BS-Indian-page-001.jpg)
+![](https://github.com/ucalyptus/BS-Nets-Implementation-Pytorch/blob/e50a34df2cc45d08979383a29d6c41535a965453/assets/architecture-MLP-page-001.jpg)
+![](https://github.com/ucalyptus/BS-Nets-Implementation-Pytorch/blob/e50a34df2cc45d08979383a29d6c41535a965453/assets/loss-acc-Indian-5band-100epoch-L10-01-best-page-001.jpg)
+# Confusion Matrix
+![](assets/bsnetsIN3D-page-001.jpg)
+
+# Architecture Code
+![](assets/carbon.svg)
+![](assets/carbon.jpg)
